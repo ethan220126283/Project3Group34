@@ -29,6 +29,11 @@ public class libraryGUI extends JFrame {
     private JTextField itemSearchText;
     private JTable memberTable;
     private JTable itemTable;
+    private JTabbedPane tbpnlAdd;
+    private JPanel addBooklinePanel;
+    private JPanel addItemPanel;
+    private JPanel addMemberPanel;
+    private JPanel addLibrarianPanel;
 
     public libraryGUI() {
         super();
