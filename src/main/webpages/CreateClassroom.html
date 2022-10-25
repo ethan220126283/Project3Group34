@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <Link rel="stylesheet" type="text/css" href="styles.css">
+        <div class="logo">  <a href = "Dashboard.html" ><img src="logo.jpg"> </a></div>
+        <nav>
+            <ul>
+                <li> <a href = "CreateClassroom.html"> Create Classroom </a> </li> 
+                <li> <a href = "AddResource.html"> Add Resource</a></li>  
+                <li> <a href = "AddCalendarEvent.html"> Add Calendar</a></li>
+                <li> <a href = "AddAnouncement.html"> Add Anouncement</a></li>       
+            </ul>
+        </nav>
+
+<title>Create Classrrom</title>
+</head>
+<body>
+    <h2>Create Classroom</h2>
+    <form>
+        <label for="classid">Classroom ID:</label>
+        <input type="text" id="classid" name="classid" placeholder = "Inser Classroom ID" style="height:23px; width:200px" required maxlength = "20"><br>
+
+        <label for="redid">Resource ID:</label>
+        <input type="text" id="resid" name="resid" placeholder = "Insert Resource ID" style="height:23px; width:200px" required maxlength=" 20"><br>
+
+        <label for="desc">Description:</label>
+        <input type="text" id="desc" name="desc"  placeholder = "Description"  style="height:23px; width:200px"><br>
+
+        <input type="submit" value="Create Classroom"  style="height:26px; width:200px" >
+
+      </form>
+
+</body>
+</html>

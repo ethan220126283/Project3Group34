@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <Link rel="stylesheet" type="text/css" href="styles.css">
+
+        <div class="logo">  <a href = "Dashboard.html" ><img src="logo.jpg"> </a></div>
+
+        <nav>
+            <ul>
+                <li> <a href = "CreateClassroom.html"> Create Classroom </a> </li> 
+                <li> <a href = "AddResource.html"> Add Resource</a></li>  
+                <li> <a href = "AddCalendarEvent.html"> Add to Calendar</a></li>
+                <li> <a href = "AddAnouncement.html"> Add Anouncement</a></li>       
+            </ul>
+        </nav>
+
+<title>Update Calendar</title>
+</head>
+<body>
+
+
+
+
+    <h1>Update Calendar</h1>
+    <div id="Calendar Table">
+      <table>
+          <tr>
+            <th>Classroom ID</th>
+            <th>Calendar ID</th>
+            <th>Date</th>
+            <th>Name</th>   
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>Grade 11</td>
+            <td>15</td>
+            <td>11 August 2022</td>
+            <td>Casualwear Day</td>
+            <td>Cashualwear requirements</td>
+          </tr>
+        </table>
+      </div>
+
+
+
+
+    <form>
+
+      <label for="calid">Calendar ID:</label>
+      <input type="text" id="calid" name="calid" placeholder = "Calendar ID to Update"  style="height:50px; width:250px"  ><br>
+
+        <label for="classid">Classroom ID:</label>
+        <input type="text" id="classid" name="classid" placeholder = "Insert Class ID"  style="height:23px; width:200px"   >   <br>
+
+
+
+
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date"  placeholder = "Update Date" style="height:23px; width:200px"     >   <br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder = "Update Name" style="height:23px; width:200px"      >    <br>
+
+        <label for="desc">Description:</label>
+        <input type="text" id="desc" name="desc"  placeholder = "Update Description"  style="height:23px; width:200px"     >    <br>
+
+        <input type="submit" value="Update Calendar"    style="height:26px; width:200px"  >
+
+      </form>
+
+
+</body>
+</html>
